@@ -15,17 +15,17 @@
         "lien": "https://github.com/ton-profil/app-mobile"
     },
     {
-        "titre" : "" ,
+        "titre" : "Systeme de recommendation" ,
         "description" : "",
         "lien" : ""
     },
     {
-        "titre" : "" ,
-        "description" : "",
+        "titre" : "Aventuriers du rail" ,
+        "description" : "Projet d'implementation du jeu aventuriers du rail",
         "lien" : ""
     },{
-        "titre" : "" ,
-        "description" : "",
-        "lien" : ""
+        "titre" : "Portfolio" ,
+        "description" : "Le fichier qui encode ce site realiser avec un fichier css , js , html et un fichier json stockee",
+        "lien" : "https://github.com/octo8c/portfolio/deployments"
     }
 ]
