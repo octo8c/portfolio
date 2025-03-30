@@ -2,8 +2,10 @@ $(document).ready(function () {
     fetch('./data.json')
         .then(response => response.json())
         .then(data => {
-            console.log("AFFICHAGE")
-            // Traitez vos données ici
+            data.forEach(element => {
+                addEntreProjet(element);
+                console.log("Ajout effectif");
+            });
         });
     function addEntreProjet(projet) {
         var content = "content" + ind;
@@ -18,12 +20,8 @@ $(document).ready(function () {
             '</div>'
             + '</div>'
         );
+        console.log("Oui c'est bien ajouté");
         ind++;
     }
-    /*projets.map(projet =>{
-        addEntreProjet();
-        console.log("Affichage "+ind);
-
-    });*/
 
 });
