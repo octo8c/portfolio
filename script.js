@@ -4,7 +4,6 @@ $(document).ready(function () {
         .then(data => {
             data.forEach(element => {
                 addEntreProjet(element);
-                console.log("Ajout effectif");
             });
         });
     function addEntreProjet(projet) {
@@ -23,5 +22,4 @@ $(document).ready(function () {
         console.log("Oui c'est bien ajouté");
         ind++;
     }
-
 });
