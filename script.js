@@ -2,11 +2,13 @@ $(document).ready(function () {
     fetch('./data.json')
         .then(response => response.json())
         .then(data => {
+            var ind = 0;
             data.forEach(element => {
-                addEntreProjet(element);
+                addEntreProjet(element,ind);
+                ind++;
             });
         });
-    function addEntreProjet(projet) {
+    function addEntreProjet(projet,ind) {
         var content = "content" + ind;
         var pres = "presentation" + ind;
         $("#row-center").append(
