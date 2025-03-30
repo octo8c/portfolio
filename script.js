@@ -2,8 +2,9 @@ $(document).ready(function () {
     fetch('./data.json')
         .then(response => response.json())
         .then(data => {
-            console.log("AFFICHAGE")
-            // Traitez vos données ici
+            data.forEach(element => {
+                addEntreProjet(element);
+            });
         });
     function addEntreProjet(projet) {
         var content = "content" + ind;
@@ -20,10 +21,4 @@ $(document).ready(function () {
         );
         ind++;
     }
-    /*projets.map(projet =>{
-        addEntreProjet();
-        console.log("Affichage "+ind);
-
-    });*/
-
 });
