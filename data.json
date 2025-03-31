@@ -1,18 +1,18 @@
 [
     {
-        "titre": "Site e-commerce",
-        "description": "Un site de vente en ligne avec gestion de panier et paiement sécurisé.",
-        "lien": "https://github.com/ton-profil/site-ecommerce"
+        "titre": "Fshell - projet création de shell",
+        "description": "Fshell est un shell codé en C ,avec pour particularité d'avoir l'ajout de boucle for et d'option différentes et variés avec également la reproduction de comportement commun a l'ensemble des shell",
+        "lien": "https://moule.informatique.univ-paris-diderot.fr/vidaln/projet-systeme"
     },
     {
-        "titre": "Portfolio",
-        "description": "Un site personnel pour présenter mes projets et compétences.",
-        "lien": "https://github.com/ton-profil/portfolio"
+        "titre": "Amelioration disposition de clavier",
+        "description": "Un projet en programation parallele (multi-thread) et concurente (mutex) pour analyser des corpus de texte,evalue les dispostion de clavier en fonction de ce meme corpus et enfin peut meme proposer des nouvelle disposition",
+        "lien": "https://moule.informatique.univ-paris-diderot.fr/mercier/projetcpoo"
     },
     {
-        "titre": "Application mobile",
-        "description": "Une application mobile développée en React Native pour gérer les tâches.",
-        "lien": "https://github.com/ton-profil/app-mobile"
+        "titre": "Inteligence artificielle de Jeu",
+        "description": "Une inteligence artificielle pour le jeu abalone qui s'appuie sur un algorithme min-max et plus particulierement l'elagage alpha-beta",
+        "lien": "https://moule.informatique.univ-paris-diderot.fr/tachou/abalone-ia"
     },
     {
         "titre" : "Systeme de recommendation" ,
@@ -21,8 +21,8 @@
     },
     {
         "titre" : "Aventuriers du rail" ,
-        "description" : "Projet d'implementation du jeu aventuriers du rail",
-        "lien" : ""
+        "description" : "Projet d'implementation du jeu aventuriers du rail,avec mode multijoueur implémenté via un protocole tpc/ip et un systeme cryptographique de elgamal pour le chiffrement et la signature",
+        "lien" : "https://github.com/octo8c/Aventuriers-du-rail"
     },
     {
         "titre" : "Portfolio" ,
