@@ -16,14 +16,15 @@
     },
     {
         "titre" : "Systeme de recommendation" ,
-        "description" : "",
+        "description" : "Un systeme de recommendation code en r",
         "lien" : ""
     },
     {
         "titre" : "Aventuriers du rail" ,
         "description" : "Projet d'implementation du jeu aventuriers du rail",
         "lien" : ""
-    },{
+    },
+    {
         "titre" : "Portfolio" ,
         "description" : "Le fichier qui encode ce site realiser avec un fichier css , js , html et un fichier json stockee",
         "lien" : "https://github.com/octo8c/portfolio/deployments"

@@ -4,24 +4,30 @@ $(document).ready(function () {
         .then(data => {
             var ind = 0;
             data.forEach(element => {
-                addEntreProjet(element,ind);
+                addEntreProjet(element, ind);
                 ind++;
             });
         });
-    function addEntreProjet(projet,ind) {
+    function addEntreProjet(projet, ind) {
         var content = "content" + ind;
-        var pres = "presentation" + ind;
+        var presentation = "presentation" + ind;
         $("#row-center").append(
             '<div class="col-sm-6 order-sm-1" id=' + content + '>' +
             '<div class="jumbotron" id=' + presentation + '>' +
             '<a href=' + projet.lien + 'a>' +
-            projet.titre + '\n' +
-            projet.description +
-            'a/>' +
+            projet.titre + "\n" +
+            '<a/>' +
             '</div>'
             + '</div>'
         );
-        console.log("Oui c'est bien ajouté");
         ind++;
+
+        $(".jumbotron#"+presentation+" a").on('mouseenter',function () {
+            $(this).text(projet.description);
+        });
+        $(".jumbotron#"+presentation+" a").on('mouseleave',function () {
+            $(this).text(projet.titre);
+        });
     }
+
 });

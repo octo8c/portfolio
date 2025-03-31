@@ -1,12 +1,30 @@
 #titre{
     text-align: center;
-}
-
-body{
-    background-color: black;
     color: black;
 }
+body {
+    background-color: black !important;
+}
+
 html{
     background-color: black;
     color: black;
+    height: 100%;
+}
+
+.jumbotron a:hover{
+    color: blueviolet;
+    font-style: italic;
+
+}
+
+.jumbotron *{
+    color: white;
+}
+
+
+
+.jumbotron{
+    border : 2px solid white;
+    background-color: transparent !important;
 }
