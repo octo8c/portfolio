@@ -22,10 +22,15 @@ html {
     color: white;
 }
 
+a{
+    font: italic;
+}
+
 
 footer{
     position: fixed;
     bottom: 0px;
+    color : gray;
 }
 
 footer:a {

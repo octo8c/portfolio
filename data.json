@@ -16,8 +16,8 @@
     },
     {
         "titre" : "Systeme de recommendation" ,
-        "description" : "Un systeme de recommendation code en r",
-        "lien" : ""
+        "description" : "Un systeme de recommendation, programme en R a l'aide de module comme recommenderLab ou meme ggplot2",
+        "lien" : "https://github.com/octo8c/Systeme-De-Recommendation/tree/main"
     },
     {
         "titre" : "Aventuriers du rail" ,
